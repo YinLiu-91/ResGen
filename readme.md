@@ -26,8 +26,10 @@ mamba install pyg -c pyg # 改为 change to python -m pip install torch_geometri
 mamba install -c conda-forge rdkit
 mamba install biopython -c conda-forge
 mamba install pyyaml easydict python-lmdb -c conda-forge
-# 没有torch_cluster 
+# 没有torch_cluster  需要本地环境build
 python -m pip install torch_cluster  -f https://data.pyg.org/whl/torch-1.10.1+cu113.html
+# 没有torch_scatter 需要本地环境build
+python -m pip install torch_scatter  -f https://data.pyg.org/whl/torch-1.10.1+cu113.html
 ```
 
 
