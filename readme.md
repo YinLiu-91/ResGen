@@ -22,7 +22,7 @@ mamba activate resgen
 ```
 mamba create -n resgen python=3.8
 mamba install pytorch==1.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
-mamba install pyg -c pyg
+mamba install pyg -c pyg # change to python -m pip install torch_geometric
 mamba install -c conda-forge rdkit
 mamba install biopython -c conda-forge
 mamba install pyyaml easydict python-lmdb -c conda-forge
